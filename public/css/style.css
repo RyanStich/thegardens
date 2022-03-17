@@ -173,10 +173,55 @@ a {
 }
 .whats-happening {
   height: 75vh;
-  margin: 190px 190px 0px 190px;
+  margin: 190px 190px 190px 190px;
   background: #8b9473;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
-.holder {
+.whats-happening p {
+  width: 22%;
+  text-align: center;
+}
+.whats-happening h1 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+}
+.image__holder {
+  margin: 25px 0;
+  width: 50%;
+  height: 70%;
+  background-image: url(highlandJiggers.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer__section {
+  width: 100%;
+  height: 25vh;
+  background-image: url(footer.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  margin: 0px 190px 0px 190px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visit-us {
+  color: #d06f4d;
+}
+.bottom-logo {
+  color: #d06f4d;
+}
+.footer__form {
+  color: #d06f4d;
 }
