@@ -52,7 +52,8 @@ a {
 }
 .description {
   height: 75vh;
-  margin: 190px 190px 0px 190px;
+  margin: 0px 190px 0px 190px;
+  padding-top: 190px;
 }
 .description__header {
   width: 40%;
@@ -224,4 +225,9 @@ footer {
 }
 .footer__form {
   color: #d06f4d;
+}
+.full-page {
+  background-image: url(wp.png);
+  background-position: center;
+  background-size: cover;
 }
