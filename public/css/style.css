@@ -714,3 +714,441 @@ p {
     background-size: cover;
   }
 }
+
+@media only screen and (max-width: 1250px) {
+
+  .leap-pad {
+    position: absolute;
+    width: 468px;
+    height: 222px;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .directional-sign {
+    position: absolute;
+    width: 255px;
+    height: 371px;
+    top: 21%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+  }
+  .cards {
+    margin: 120px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  .card1 {
+    margin: 0px 30px 0px 0px;
+  }
+  .card2 {
+    margin: 0px 30px 0px 0px;
+  }
+  .card3 {
+    margin: 0px 30px 0px 0px;
+  }
+  .image__holder {
+    margin: 25px 0;
+    width: 85%;
+    height: 60%;
+    background-image: url(highlandJiggers.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+.hero__text {
+  display: none;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#menu {
+  padding: 0px 50px;
+  position: relative;
+  z-index:999;
+}
+nav {
+  width: 100%;
+}
+nav ul {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30%;
+	background: black;
+	height: 100%;
+	padding-top: 25px;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+  top: -120%;
+}
+nav ul li {
+  margin: 20px 0;
+}
+.navback {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30%;
+	background: black;
+	height: 100%;
+	padding-top: 20px;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
+.navback li {
+	margin: 20px 0;
+}
+#pencet{
+  display:flex;
+  align-items:flex-start;
+  flex-direction:column;
+  cursor:pointer;
+}
+
+#pencet span{
+  background-color:#d06f4d;
+  width:2em;
+  height:.2em;
+  margin:0.26em 0;
+  display:block;
+  transition: all .4s ease;
+  transform-origin:0 0;
+}
+
+.Diam span:nth-child(1) {
+  transform: rotate(45deg) translate(1px, -1px);
+}
+
+.Diam span:nth-child(2) {
+  Transform: scaleX(0);
+}
+
+.Diam span:nth-child(3) {
+  transform: rotate(-45deg) translate(1px, 0);
+}
+.description {
+	height: 75vh;
+	margin: 0px 0px 0px 50px;
+	padding-top: 90px;
+}
+.hero {
+	height: 60vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(bg.png);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  position: relative;
+}
+.logo img {
+	width: 325px;
+}
+.description__header {
+	width: 75%;
+	position: relative;
+}
+.description__body {
+	width: 75%;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	margin-left: 50px;
+}
+.leap-pad {
+	position: absolute;
+	width: 296px;
+	height: 191px;
+	top: 16%;
+	left: 22%;
+	transform: translate(-50%, -50%);
+}
+.directional-sign {
+	position: absolute;
+	width: 221px;
+	height: 289px;
+	top: 17%;
+	left: 61%;
+	transform: translate(-50%, -50%);
+}
+.description {
+	height: 70vh;
+	margin: 0px 0px 0px 50px;
+	padding-top: 90px;
+}
+.cards {
+	flex-direction: column;
+  margin-top: 120px;
+}
+.card1, .card2, .card3 {
+  margin: 0;
+margin-bottom: 50px;
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+
+.card1:hover {
+  -webkit-box-shadow: 0px 0px 15px 2px #00000085; 
+box-shadow: 0px 0px 15px 2px #00000085; 
+}
+.card2:hover {
+  -webkit-box-shadow: 0px 0px 15px 2px #00000085; 
+box-shadow: 0px 0px 15px 2px #00000085; 
+}
+.card3:hover {
+  -webkit-box-shadow: 0px 0px 15px 2px #00000085; 
+box-shadow: 0px 0px 15px 2px #00000085; 
+}
+.whats-happening {
+	height: 75vh;
+	margin: 120px 0px 120px 0px;
+	background: #8b9473;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+}
+footer {
+	margin: 20px 20px 20px 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+}
+
+@media only screen and (max-width: 767px) {
+
+  .navback {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    background: black;
+    height: 100%;
+    padding-top: 20px;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+  }
+  nav ul {
+    width: 40%;
+  }
+
+  .description__header {
+    width: 90%;
+    position: relative;
+  }
+  .directional-sign {
+    position: absolute;
+    width: 200px;
+    height: 267px;
+    top: 17%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+  .leap-pad {
+    position: absolute;
+    width: 268px;
+    height: 190px;
+    top: 16%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+  }
+  .description__body {
+    width: 82%;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .image__holder {
+    margin: 25px 0;
+    width: 75%;
+    height: 54%;
+    background-image: url(highlandJiggers.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .whats-happening h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .directional-sign {
+    position: absolute;
+    width: 182px;
+    height: 247px;
+    top: 18%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+  }
+  .leap-pad {
+    position: absolute;
+    width: 240px;
+    height: 178px;
+    top: 15%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+  }
+  .image__holder {
+    margin: 25px 0;
+    width: 85%;
+    height: 45%;
+    background-image: url(highlandJiggers.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .whats-happening p {
+    width: 60%;
+    text-align: center;
+  }
+  nav ul {
+    width: 50%;
+  }
+  .navback {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+.directional-sign {
+	position: absolute;
+	width: 164px;
+	height: 229px;
+	top: 17%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+}
+
+.leap-pad {
+	position: absolute;
+	width: 205px;
+	height: 163px;
+	top: 15%;
+	left: 31%;
+	transform: translate(-50%, -50%);
+}
+.whats-happening h1 {
+	font-size: 30px;
+	width: 80%;
+	text-align: center;
+}
+.image__holder {
+	margin: 25px 0;
+	width: 85%;
+	height: 45%;
+	background-image: url(highlandJiggers.jpg);
+	background-position: center;
+	background-size: cover;
+}
+}
+
+@media only screen and (max-width: 450px) {
+.leap-pad {
+	position: absolute;
+	width: 173px;
+	height: 146px;
+	top: 15%;
+	left: 29%;
+	transform: translate(-50%, -50%);
+}
+.directional-sign {
+	position: absolute;
+	width: 141px;
+	height: 204px;
+	top: 17%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+}
+.description__header p {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: left;
+}
+.footer__form input, p {
+	margin: 5px 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: left;
+}
+nav ul {
+  width: 100%;
+}
+.navback {
+  width: 100%;
+}
+}
+@media only screen and (max-width: 400px) {
+  .leap-pad {
+    position: absolute;
+    width: 142px;
+    height: 131px;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .directional-sign {
+    position: absolute;
+    width: 139px;
+    height: 186px;
+    top: 17%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+  }
+  .description {
+    margin: 0px 0px 0px 25px;
+  }
+  .description__body {
+    margin-left: 25px;
+  }
+  .description__header h1 {
+    color: #b16e20;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .description__header h2 {
+    color: #b16e20;
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .directional-sign {
+    position: absolute;
+    width: 139px;
+    height: 186px;
+    top: 17%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+  }
+  .leap-pad {
+    position: absolute;
+    width: 142px;
+    height: 131px;
+    top: 14.5%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+  }
+}
