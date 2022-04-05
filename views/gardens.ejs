@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' href='/css/style.css' />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/srm2inj.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -21,12 +22,12 @@
         </div>
         <ul id="backnav">
           <li class="hidden_logo"><a href=""></a></li>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/gardens">GARDENS</a></li>
-        <li><a href="/membership">MEMBERSHIP</a></li>
-        <li><a href="#">RENTALS</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">CONTACT</a></li>
+          <li class="backnav__link"><a href="/">HOME</a></li>
+          <li class="backnav__link active"><a href="/gardens">GARDENS</a></li>
+          <li class="backnav__link"><a href="/membership">MEMBERSHIP</a></li>
+          <li class="backnav__link"><a href="#">RENTALS</a></li>
+          <li class="backnav__link"><a href="#">EVENTS</a></li>
+          <li class="backnav__link"><a href="#">CONTACT</a></li>
       </ul>
     </nav>
     <div class="logo">
@@ -38,7 +39,8 @@
     </div>
     <section class="full-page">
         <!-- About The Gardens Section -->
-    <section class="garden__description">
+    <section class="garden__description" data-aos="fade-up"
+    data-aos-duration="1000">
       <div class="description__header">
         <h1>About</h1>
         <h2>The Gardens</h2>
@@ -135,11 +137,25 @@
                     time. Bill passed away in 2014 and Joy continues to be actively involved in the Gardens.
             </p>
 
+            <div class="redfence">
 
+            </div>
       </div>
     </section>
     </section>
 
+    <div class="green-space">
+      <article>This place is a gem. Lovely gardens, great location. Often concerts 
+        on Sunday afternoons in the summer. A favourite.
+      </article>
+      <span>- Scott</span>
+    </div>
+
+    <div class="white-space">
+      <article>We are open to the public from Mother’s Day through September, daily from 10am to 4pm. Entry to The Gardens is by donation. 
+        Your contribution is greatly appreciated and helps ensure we can open our beautiful garden to the public every year. Contact us regarding group visits or event hosting.
+      </article>
+    </div>
     <section class="footer__section">
       <footer>
         <div class="visit-us">
@@ -150,8 +166,7 @@
           <h1>2012 Anderton Road <br> Comox BC</h1>
         </div>
         <div class="bottom-logo">
-          <h1 class="anderton__h1">Anderton</h1>
-          <h1>Gardens</h1>
+          <img src="img/logo-dark.svg" alt="Andertons Logo alternative logo, designed for the footer ">
         </div>
         <div class="footer__form">
           <h1>Subscribe to our <br> Newsletter</h1>

@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' href='/css/style.css' />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/srm2inj.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -21,12 +22,12 @@
         </div>
         <ul id="backnav">
           <li class="hidden_logo"><a href=""></a></li>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/gardens">GARDENS</a></li>
-        <li><a href="/membership">MEMBERSHIP</a></li>
-        <li><a href="#">RENTALS</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">CONTACT</a></li>
+          <li class="backnav__link"><a href="/">HOME</a></li>
+          <li class="backnav__link"><a href="/gardens">GARDENS</a></li>
+          <li class="backnav__link active"><a href="/membership">MEMBERSHIP</a></li>
+          <li class="backnav__link"><a href="#">RENTALS</a></li>
+          <li class="backnav__link"><a href="#">EVENTS</a></li>
+          <li class="backnav__link"><a href="#">CONTACT</a></li>
       </ul>
     </nav>
     <div class="logo">
@@ -38,7 +39,8 @@
     </div>
   </section>
   <section class="full-page">
-    <section class="membership__description">
+    <section class="membership__description" data-aos="fade-up"
+    data-aos-duration="1000">
         <div class="description__header">
           <h1>Join Us</h1>
           <h2>Become A Member</h2>
@@ -129,8 +131,7 @@
             <h1>2012 Anderton Road <br> Comox BC</h1>
           </div>
           <div class="bottom-logo">
-            <h1 class="anderton__h1">Anderton</h1>
-            <h1>Gardens</h1>
+            <img src="img/logo-dark.svg" alt="Andertons Logo alternative logo, designed for the footer ">
           </div>
           <div class="footer__form">
             <h1>Subscribe to our <br> Newsletter</h1>

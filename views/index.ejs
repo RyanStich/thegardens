@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' href='/css/style.css' />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/srm2inj.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -21,12 +22,12 @@
         </div>
         <ul id="backnav">
           <li class="hidden_logo"><a href=""></a></li>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/gardens">GARDENS</a></li>
-        <li><a href="/membership">MEMBERSHIP</a></li>
-        <li><a href="#">RENTALS</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li class="backnav__link active"><a href="/">HOME</a></li>
+        <li class="backnav__link"><a href="/gardens">GARDENS</a></li>
+        <li class="backnav__link"><a href="/membership">MEMBERSHIP</a></li>
+        <li class="backnav__link"><a href="#">RENTALS</a></li>
+        <li class="backnav__link"><a href="#">EVENTS</a></li>
+        <li class="backnav__link"><a href="#">CONTACT</a></li>
       </ul>
     </nav>
     <div  class="logo">
@@ -37,7 +38,8 @@
     </div>
     </div>
     <section class="full-page">
-    <section class="description">
+    <section class="description" data-aos="fade-up"
+    data-aos-duration="1000">
       <img class="leap-pad" src="img/ag1.png" alt="A nice lake located at the gardens with a lilly pad ontop">
       <img class="directional-sign" src="img/directional-sign-at-the.png"  alt="A nice view of the gardens with a directional sign pointing in many directions">
       <div class="description__header">
@@ -53,15 +55,21 @@
       </p>
     </div>
     <section class="cards">
-      <div class="card1">
+      <a href="/gardens">
+      <div  class="card1">
         <h1>The Gardens</h1>
       </div>
-      <div class="card2">
+    </a>
+    <a href="#">
+      <div  class="card2">
         <h1>Event Rentals</h1>
       </div>
-      <div class="card3">
+    </a>
+    <a href="/membership">
+      <div d  class="card3">
         <h1>Memberships</h1>
       </div>
+    </a>
     </section>
     <section class="whats-happening">
         <h1>
