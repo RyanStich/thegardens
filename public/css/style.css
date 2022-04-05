@@ -16,11 +16,11 @@ a {
 }
 
 .active {
-border-bottom: 1px solid #ffffff ;
+  border-bottom: 1px solid  #d1bbaf;
 }
 .backnav__link:before {
   left: 0;
-  bottom: 2px;
+  bottom: -2px;
   width: 100%;
   height: 2px;
   content: "";
