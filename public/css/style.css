@@ -1083,7 +1083,7 @@ nav ul li {
 	position: absolute;
 	width: 368px;
 	height: 227px;
-	top: 467px;
+	top: 515px;
 	left: 240px;
 	transform: translate(-50%, -50%);
 }
@@ -1091,15 +1091,11 @@ nav ul li {
 	position: absolute;
 	width: 251px;
 	height: 330px;
-	top: 465px;
+	top: 567px;
 	left: 617px;
 	transform: translate(-50%, -50%);
 }
-.description {
-	height: 75vh;
-	margin: 0px 0px 0px 50px;
-	padding-top: 50px;
-}
+
 .cards {
 	flex-direction: column;
   margin-top: 120px;
@@ -1244,6 +1240,9 @@ margin-bottom: 3%;
 	background-size: cover;
 	margin: 50px 0px;
 }
+.description {
+  height: 84vh !important;
+}
 }
 @media only screen and (max-width: 820px) {
 
@@ -1260,7 +1259,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 368px;
     height: 227px;
-    top: 477px;
+    top: 539px;
     left: 187px;
     transform: translate(-50%, -50%);
   }
@@ -1268,7 +1267,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 251px;
     height: 330px;
-    top: 469px;
+    top: 558px;
     left: 562px;
     transform: translate(-50%, -50%);
   }
@@ -1331,7 +1330,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 225px;
     height: 276px;
-    top: 481px;
+    top: 537px;
     left: 450px;
     transform: translate(-50%, -50%);
   }
@@ -1339,7 +1338,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 291px;
     height: 182px;
-    top: 389px;
+    top: 503px;
     left: 146px;
     transform: translate(-50%, -50%);
   }
@@ -1434,7 +1433,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 182px;
     height: 247px;
-    top: 544px;
+    top: 603px;
     left: 301px;
     transform: translate(-50%, -50%);
   }
@@ -1442,7 +1441,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 234px;
     height: 170px;
-    top: 415px;
+    top: 446px;
     left: 154px;
     transform: translate(-50%, -50%);
   }
@@ -1603,7 +1602,7 @@ margin-bottom: 3%;
     position: absolute;
     width: 170px;
     height: 233px;
-    top: 530px;
+    top: 612px;
     left: 250px;
     transform: translate(-50%, -50%);
   }
@@ -1614,7 +1613,7 @@ margin-bottom: 3%;
 	position: absolute;
 	width: 210px;
 	height: 153px;
-	top: 407px;
+	top: 459px;
 	left: 104px;
 	transform: translate(-50%, -50%);
 }
@@ -1710,7 +1709,7 @@ nav ul {
     position: absolute;
     width: 210px;
     height: 144px;
-    top: 415px;
+    top: 458px;
     left: 100px;
     transform: translate(-50%, -50%);
   }
@@ -1718,7 +1717,7 @@ nav ul {
     position: absolute;
     width: 170px;
     height: 233px;
-    top: 571px;
+    top: 622px;
     left: 223px;
     transform: translate(-50%, -50%);
   }
@@ -1761,15 +1760,15 @@ nav ul {
     position: absolute;
     width: 148px;
     height: 195px;
-    top: 562px;
-    left: 199px;
+    top: 614px;
+    left: 181px;
     transform: translate(-50%, -50%);
   }
   .leap-pad {
     position: absolute;
     width: 178px;
     height: 131px;
-    top: 423px;
+    top: 484px;
     left: 89px;
     transform: translate(-50%, -50%);
   }
