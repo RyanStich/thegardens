@@ -54,9 +54,10 @@ a {
   font-family: "Playfair Display SC", serif;
 }
 .description {
-  height: 75vh;
+  height: 70vh;
   margin: 0px 190px 0px 190px;
   padding-top: 190px;
+  position: relative;
 }
 .garden__description {
   min-height: 60vh;
@@ -91,20 +92,20 @@ a {
   text-align: left;
 }
 .leap-pad {
-  position: absolute;
-  width: 667px;
-  height: 344px;
-  top: 24%;
-  left: 32%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	width: 637px;
+	height: 319px;
+	top: 640px;
+	left: 375px;
+	transform: translate(-50%, -50%);
 }
 .directional-sign {
-  position: absolute;
-  width: 384px;
-  height: 491px;
-  top: 19%;
-  left: 63%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	width: 365px;
+	height: 472px;
+	top: 489px;
+	left: 988px;
+	transform: translate(-50%, -50%);
 }
 .description__body {
   width: 40%;
@@ -231,15 +232,25 @@ footer {
 }
 .visit-us {
   color: #d06f4d;
+  flex: 1 1 0;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
 }
 .bottom-logo {
   color: #d06f4d;
+  flex: 1 1 0;
+}
+.bottom-logo img {
+	width: 180px;
 }
 .footer__form {
   color: #d06f4d;
+  flex: 1 1 0;
 }
 .full-page {
-  position: relative;
   background-image: url(wp.png);
   background-position: center;
   background-size: cover;
@@ -300,6 +311,7 @@ p {
   font-size: 20px;
   color: #d89c79;
   line-height: 1.5;
+  text-align: center;
 }
 .footer__form button {
   width: 120px;
@@ -351,8 +363,8 @@ p {
 .music-setup {
 	height: 331px;
 	position: absolute;
-	top: 29%;
-	left: 44%;
+	top: 310px;
+	left: 940px;
 	transform: translate(-50%, -50%);
 	z-index: 99;
 	width: 383px;
@@ -361,8 +373,8 @@ p {
 	width: 318px;
 	height: 293px;
 	position: absolute;
-	top: 32%;
-	left: 70%;
+	top: 460px;
+	left: 1415px;
 	transform: translate(-50%, -50%);
 	z-index: 99;
 }
@@ -483,22 +495,7 @@ p {
 
 /* RESPONSIVE STYLES */
 @media only screen and (max-width: 1750px) {
-  .directional-sign {
-    position: absolute;
-    width: 327px;
-    height: 440px;
-    top: 19%;
-    left: 68%;
-    transform: translate(-50%, -50%);
-  }
-  .leap-pad {
-    position: absolute;
-    width: 602px;
-    height: 290px;
-    top: 25%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-  }
+
   .description__header {
     width: 50%;
     position: relative;
@@ -511,6 +508,13 @@ p {
     font-family: "Playfair Display", serif;
     font-size: 20px;
     margin: 15px 0;
+  }
+  .footer__form p {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #d89c79;
+    line-height: 1.5;
+    text-align: center;
   }
   .footer__form h1 {
     font-family: "Playfair Display", serif;
@@ -544,20 +548,20 @@ p {
     font-size: 20px;
   }
   .music-setup {
-    height: 310px;
+    height: 331px;
     position: absolute;
-    top: 28%;
-    left: 46%;
+    top: 333px;
+    left: 864px;
     transform: translate(-50%, -50%);
     z-index: 99;
-    width: 353px;
+    width: 383px;
   }
   .garden-img {
-    width: 282px;
-    height: 272px;
+    width: 318px;
+    height: 293px;
     position: absolute;
-    top: 31%;
-    left: 69%;
+    top: 436px;
+    left: 1316px;
     transform: translate(-50%, -50%);
     z-index: 99;
   }
@@ -612,16 +616,16 @@ p {
     position: absolute;
     width: 294px;
     height: 415px;
-    top: 18%;
-    left: 76%;
+    top: 475px;
+    left: 890px;
     transform: translate(-50%, -50%);
   }
   .leap-pad {
     position: absolute;
     width: 564px;
     height: 266px;
-    top: 25%;
-    left: 37%;
+    top: 630px;
+    left: 327px;
     transform: translate(-50%, -50%);
   }
   .description__header {
@@ -649,8 +653,8 @@ p {
   .music-setup {
     height: 288px;
     position: absolute;
-    top: 27%;
-    left: 54%;
+    top: 294px;
+    left: 830px;
     transform: translate(-50%, -50%);
     z-index: 99;
     width: 312px;
@@ -659,8 +663,8 @@ p {
     width: 256px;
     height: 254px;
     position: absolute;
-    top: 32%;
-    left: 79%;
+    top: 466px;
+    left: 1050px;
     transform: translate(-50%, -50%);
     z-index: 99;
   }
@@ -718,21 +722,20 @@ p {
 }
 
 @media only screen and (max-width: 1250px) {
-
   .leap-pad {
     position: absolute;
     width: 468px;
     height: 222px;
-    top: 25%;
-    left: 40%;
+    top: 625px;
+    left: 233px;
     transform: translate(-50%, -50%);
   }
   .directional-sign {
     position: absolute;
     width: 255px;
     height: 371px;
-    top: 21%;
-    left: 77%;
+    top: 569px;
+    left: 700px;
     transform: translate(-50%, -50%);
   }
   .cards {
@@ -758,46 +761,63 @@ p {
     background-size: cover;
   }
   .music-setup {
-    height: 254px;
+    height: 260px;
     position: absolute;
-    top: 27%;
-    left: 58%;
+    top: 321px;
+    left: 780px;
     transform: translate(-50%, -50%);
     z-index: 99;
-    width: 280px;
+    width: 287px;
   }
   .garden-img {
     width: 256px;
     height: 254px;
     position: absolute;
-    top: 32%;
-    left: 82%;
+    top: 490px;
+    left: 960px;
     transform: translate(-50%, -50%);
     z-index: 99;
   }
   .garden__list {
     margin-bottom: 20%;
   }
+  footer {
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
-  .garden-img {
-    width: 256px;
-    height: 254px;
+
+  .music-setup {
+    height: 249px;
     position: absolute;
-    top: 30%;
-    left: 77%;
+    top: 321px;
+    left: 745px;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    width: 272px;
+  }
+  .garden-img {
+    width: 238px;
+    height: 241px;
+    position: absolute;
+    top: 505px;
+    left: 897px;
     transform: translate(-50%, -50%);
     z-index: 99;
   }
-  .music-setup {
-    height: 254px;
+
+  .directional-sign {
     position: absolute;
-    top: 26%;
-    left: 64%;
+    width: 255px;
+    height: 371px;
+    top: 490px;
+    left: 665px;
     transform: translate(-50%, -50%);
-    z-index: 99;
-    width: 280px;
   }
 }
 
@@ -808,6 +828,9 @@ p {
   }
 .hero__text {
   display: none;
+}
+.bottom-logo img {
+	width: 140px;
 }
 .logo {
   display: flex;
@@ -834,7 +857,6 @@ nav ul {
 	width: 30%;
 	background: black;
 	height: 100%;
-	padding-top: 25px;
   transition: 0.5s ease-in-out;
   opacity: 1;
   top: -120%;
@@ -852,7 +874,6 @@ nav ul li {
 	width: 30%;
 	background: black;
 	height: 100%;
-	padding-top: 20px;
   transition: 0.5s ease-in-out;
   opacity: 1;
 }
@@ -917,22 +938,22 @@ nav ul li {
 }
 .leap-pad {
 	position: absolute;
-	width: 296px;
-	height: 191px;
-	top: 16%;
-	left: 22%;
+	width: 368px;
+	height: 227px;
+	top: 467px;
+	left: 240px;
 	transform: translate(-50%, -50%);
 }
 .directional-sign {
 	position: absolute;
-	width: 221px;
-	height: 289px;
-	top: 17%;
-	left: 61%;
+	width: 251px;
+	height: 330px;
+	top: 465px;
+	left: 617px;
 	transform: translate(-50%, -50%);
 }
 .description {
-	height: 70vh;
+	height: 75vh;
 	margin: 0px 0px 0px 50px;
 	padding-top: 50px;
 }
@@ -960,7 +981,7 @@ box-shadow: 0px 0px 15px 2px #00000085;
 box-shadow: 0px 0px 15px 2px #00000085; 
 }
 .whats-happening {
-	height: 75vh;
+	height: 50vh;
 	margin: 120px 0px 120px 0px;
 	background: #8b9473;
 	display: flex;
@@ -971,16 +992,17 @@ box-shadow: 0px 0px 15px 2px #00000085;
 	font-size: 20px;
 }
 footer {
-	margin: 20px 20px 20px 20px;
+	margin: 20px 50px 20px 50px;
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
 .garden__description {
-	min-height: 70vh;
+	min-height: 50vh;
 	margin: 0px 0px 0px 50px;
 	padding-top: 50px;
+  padding-bottom: 50px;
 }
 .gardens__body p {
 	line-height: 1.5;
@@ -1008,10 +1030,19 @@ footer {
 	width: 490px;
 	height: 260px;
 	position: absolute;
-	top: 36.5%;
+	top: 736px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 99;
+}
+.music-setup {
+	height: 276px;
+	position: absolute;
+	top: 339px;
+	left: 640px;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+	width: 315px;
 }
 .garden__wrapper p {
 margin-bottom: 3%;
@@ -1064,29 +1095,39 @@ margin-bottom: 3%;
 }
 }
 @media only screen and (max-width: 820px) {
+
   .music-setup {
-    height: 265px;
+    height: 253px;
     position: absolute;
-    top: 25%;
-    left: 71%;
+    top: 339px;
+    left: 575px;
     transform: translate(-50%, -50%);
     z-index: 99;
-    width: 297px;
+    width: 273px;
   }
-  .garden-img {
-    width: 466px;
-    height: 247px;
+  .leap-pad {
     position: absolute;
-    top: 35.5%;
-    left: 50%;
+    width: 368px;
+    height: 227px;
+    top: 477px;
+    left: 187px;
     transform: translate(-50%, -50%);
-    z-index: 99;
+  }
+  .directional-sign {
+    position: absolute;
+    width: 251px;
+    height: 330px;
+    top: 469px;
+    left: 562px;
+    transform: translate(-50%, -50%);
   }
 }
 
 @media only screen and (max-width: 767px) {
-
-
+  .gardens__body li {
+    width: 60%;
+    text-align: center;
+  }
   .description__header h1 {
     color: #b16e20;
     font-family: "Playfair Display", serif;
@@ -1123,7 +1164,6 @@ margin-bottom: 3%;
     width: 40%;
     background: black;
     height: 100%;
-    padding-top: 20px;
     transition: 0.5s ease-in-out;
     opacity: 1;
   }
@@ -1137,18 +1177,18 @@ margin-bottom: 3%;
   }
   .directional-sign {
     position: absolute;
-    width: 200px;
-    height: 267px;
-    top: 17%;
-    left: 75%;
+    width: 225px;
+    height: 276px;
+    top: 481px;
+    left: 450px;
     transform: translate(-50%, -50%);
   }
   .leap-pad {
     position: absolute;
-    width: 268px;
-    height: 190px;
-    top: 16%;
-    left: 26%;
+    width: 291px;
+    height: 182px;
+    top: 389px;
+    left: 146px;
     transform: translate(-50%, -50%);
   }
   .description__body {
@@ -1180,14 +1220,32 @@ margin-bottom: 3%;
     margin-left: 50px;
   }
   .garden-img {
-    width: 466px;
-    height: 247px;
+    width: 451px;
+    height: 230px;
     position: absolute;
-    top: 37%;
+   top: 670px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 99;
   }
+  footer {
+    margin: 20px 50px 20px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+.footer__section {
+  background-position: center;
+  background-size: cover;
+}
+.visit-us {
+  margin-bottom: 55px;
+}
+.bottom-logo {
+  margin-bottom: 55px;
+}
   .footer__form input, p {
     margin: 5px 0;
     font-family: "Raleway", sans-serif;
@@ -1216,16 +1274,16 @@ margin-bottom: 3%;
     position: absolute;
     width: 182px;
     height: 247px;
-    top: 18%;
-    left: 72%;
+    top: 544px;
+    left: 301px;
     transform: translate(-50%, -50%);
   }
   .leap-pad {
     position: absolute;
-    width: 240px;
-    height: 178px;
-    top: 15%;
-    left: 29%;
+    width: 234px;
+    height: 170px;
+    top: 415px;
+    left: 154px;
     transform: translate(-50%, -50%);
   }
   .image__holder {
@@ -1247,7 +1305,7 @@ margin-bottom: 3%;
     width: 50%;
   }
   .garden__description {
-    min-height: 60vh;
+    min-height: 50vh;
     margin: 0px 0px 0px 25px;
     padding-top: 50px;
   }
@@ -1356,25 +1414,40 @@ margin-bottom: 3%;
   .button-one {
     margin-top: 0;
   }
+  .garden-img {
+    width: 397px;
+    height: 206px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+  .description__header p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
 }
 @media only screen and (max-width: 500px) {
-.directional-sign {
-	position: absolute;
-	width: 164px;
-	height: 229px;
-	top: 17%;
-	left: 72%;
-	transform: translate(-50%, -50%);
-}
+  .directional-sign {
+    position: absolute;
+    width: 170px;
+    height: 233px;
+    top: 530px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+  }
 .logo img {
 	width: 250px;
 }
 .leap-pad {
 	position: absolute;
-	width: 205px;
-	height: 163px;
-	top: 15%;
-	left: 31%;
+	width: 210px;
+	height: 153px;
+	top: 407px;
+	left: 104px;
 	transform: translate(-50%, -50%);
 }
 .whats-happening h1 {
@@ -1393,14 +1466,18 @@ margin-bottom: 3%;
 }
 
 @media only screen and (max-width: 450px) {
-.leap-pad {
-	position: absolute;
-	width: 173px;
-	height: 146px;
-	top: 15%;
-	left: 29%;
-	transform: translate(-50%, -50%);
-}
+  .garden__list {
+    margin-bottom: 250px;
+  }
+  .childrens__playground {
+    width: 297px;
+    height: 164px;
+    background-image: url(playground.png);
+    background-position: center;
+    background-size: cover;
+    margin: 25px 0px;
+    margin-left: -25px;
+  }
 .member__button {
 	width: 250px;
 	height: 50px;
@@ -1413,14 +1490,6 @@ margin-bottom: 3%;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	color: white;
-}
-.directional-sign {
-	position: absolute;
-	width: 141px;
-	height: 204px;
-	top: 17%;
-	left: 72%;
-	transform: translate(-50%, -50%);
 }
 .description__header p {
 	font-family: "Raleway", sans-serif;
@@ -1441,23 +1510,39 @@ nav ul {
 .navback {
   width: 100%;
 }
+.garden-img {
+  width: 309px;
+  height: 187px;
+  position: absolute;
+  top: 552px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.garden__wrapper h1 {
+	margin: 25px 0;
+	font-family: "Playfair Display", serif;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 2.5px;
+}
 
 }
 @media only screen and (max-width: 400px) {
   .leap-pad {
     position: absolute;
-    width: 142px;
-    height: 131px;
-    top: 15%;
-    left: 30%;
+    width: 210px;
+    height: 144px;
+    top: 415px;
+    left: 100px;
     transform: translate(-50%, -50%);
   }
   .directional-sign {
     position: absolute;
-    width: 139px;
-    height: 186px;
-    top: 17%;
-    left: 72%;
+    width: 170px;
+    height: 233px;
+    top: 571px;
+    left: 223px;
     transform: translate(-50%, -50%);
   }
   .description {
@@ -1481,22 +1566,52 @@ nav ul {
     margin-bottom: 25px;
   }
 }
+@media only screen and (max-width: 340px) {
+  .garden-img {
+    width: 295px;
+    height: 171px;
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+}
+
 
 @media only screen and (max-width: 330px) {
   .directional-sign {
     position: absolute;
-    width: 139px;
-    height: 186px;
-    top: 17%;
-    left: 62%;
+    width: 148px;
+    height: 195px;
+    top: 562px;
+    left: 199px;
     transform: translate(-50%, -50%);
   }
   .leap-pad {
     position: absolute;
-    width: 142px;
+    width: 178px;
     height: 131px;
-    top: 14.5%;
-    left: 33%;
+    top: 423px;
+    left: 89px;
     transform: translate(-50%, -50%);
+  }
+  .childrens__playground {
+    width: 260px;
+    height: 146px;
+    background-image: url(playground.png);
+    background-position: center;
+    background-size: cover;
+    margin: 25px 0px;
+    margin-left: -25px;
+  }
+  .garden-img {
+    width: 216px;
+    height: 141px;
+    position: absolute;
+    top: 625px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
   }
 }

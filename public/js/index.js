@@ -14,3 +14,4 @@ console.log(navToggler)
 hamburger.addEventListener('click', function(){
     navToggler.classList.toggle('navback');
   });
+

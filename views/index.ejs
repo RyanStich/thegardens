@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' href='/css/style.css' />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -28,17 +29,17 @@
         <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
-    <div class="logo">
-      <img src="img/deco-logo-light.svg" alt="">
+    <div  class="logo">
+      <img src="img/deco-logo-light.svg" alt="Anderton Gardens Logo">
     </div>
     <div class="hero__text">
-      <h1>EXPLORE | ESCAPE | ENJOY</h1>
+      <h1  data-aos="zoom-out">EXPLORE | ESCAPE | ENJOY</h1>
     </div>
     </div>
     <section class="full-page">
-      <img class="leap-pad" src="img/ag1.png" alt="">
-      <img class="directional-sign" src="img/directional-sign-at-the.png" alt="">
     <section class="description">
+      <img class="leap-pad" src="img/ag1.png" alt="A nice lake located at the gardens with a lilly pad ontop">
+      <img class="directional-sign" src="img/directional-sign-at-the.png"  alt="A nice view of the gardens with a directional sign pointing in many directions">
       <div class="description__header">
         <h1>Anderton</h1>
         <h2>Gardens</h2>
@@ -63,7 +64,6 @@
       </div>
     </section>
     <section class="whats-happening">
-      <img src="img/leaf.jpg" alt="">
         <h1>
           What’s Happening at The Gardens
         </h1>
@@ -82,8 +82,7 @@
           <h1>2012 Anderton Road <br> Comox BC</h1>
         </div>
         <div class="bottom-logo">
-          <h1 class="anderton__h1">Anderton</h1>
-          <h1>Gardens</h1>
+          <img src="img/logo-dark.svg" alt="Andertons Logo alternative logo, designed for the footer ">
         </div>
         <div class="footer__form">
           <h1>Subscribe to our <br> Newsletter</h1>
@@ -96,5 +95,9 @@
     </section>
   </section>
   <script src="js/index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
